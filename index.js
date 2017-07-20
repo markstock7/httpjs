@@ -19,10 +19,10 @@
  *   默认返回 json数据
  *   http.get(url, options).then().then().finally();
  */
-import fetch from 'isomorphic-fetch';
-import url from 'url';
-import _ from 'lodash';
-import Promise from 'bluebird';
+var fetch = require('isomorphic-fetch');
+var url = require('url');
+var _ =  require('lodash');
+var Promise = require('bluebird');
 
 var http;
 
@@ -371,5 +371,5 @@ http.init = (options) => {
   endpoint = options.endpoint;
 };
 
-export default http;
+module.exports = http;
 
