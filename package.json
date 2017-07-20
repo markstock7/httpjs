@@ -1,0 +1,30 @@
+{
+  "name": "httpjs",
+  "version": "1.0.0",
+  "description": "A http request agent that build on isomorphic-fetch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markstock7/httpjs.git"
+  },
+  "keywords": [
+    "http",
+    "fetch",
+    "request"
+  ],
+  "author": "Mark Stock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markstock7/httpjs/issues"
+  },
+  "homepage": "https://github.com/markstock7/httpjs#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "url": "^0.11.0"
+  }
+}
